@@ -1,1 +1,1 @@
-README for project 6
+readme for project 6
