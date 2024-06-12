@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "Username using whoami command: $(whoami)"
+echo $user
