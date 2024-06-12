@@ -1,2 +1,2 @@
 #!/bin/bash
-if [ ! -f hello ]; then touch hello fi
+chmod hello
