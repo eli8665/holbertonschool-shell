@@ -1,2 +1,2 @@
 #!/bin/bash
-file="hello"; if [ $(stat -c '%U' "$file") = "guillaume" ]; then sudo chown vincent "$file"; fi
+[ $(stat -c '%U' hello) = "guillaume" ] && sudo chown vincent hello
