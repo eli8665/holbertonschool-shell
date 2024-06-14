@@ -1,1 +1,2 @@
 #!/bin/bash
+find -d fill:user:home /etc/passwd | sort
