@@ -1,2 +1,2 @@
 #!/bin/bash
-(BEST="School" echo "Local variable BEST set to: $BEST")
+( BEST="School" set | grep BEST | grep -v BASH_EXECUTION_STRING)
